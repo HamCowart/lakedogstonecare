@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LakeDog Stone Care | Stone Polishing & Restoration - Lake Norman</title>
+  <meta name="description" content="LakeDog Stone Care provides expert stone polishing, etch removal, and sealing services across the Lake Norman region. We restore marble, granite, tile, and more." />
+  <meta name="keywords" content="stone care, stone polishing, etch mark repair, sealing, marble, granite, Lake Norman, Mooresville, Davidson, Denver NC, shower glass polish" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <div class="top-flex-wrapper">
+    <div class="content-column full-width-header">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="scratch-removal.html">Scratch Removal</a></li>
+        <li><a href="etch-removal.html">Etch Removal</a></li>
+        <li><a href="sealing.html">Sealing</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Hero Image -->
+  <div class="hero-image-wrapper">
+    <img src="images/lakedog-header3.png" alt="Stone surface being restored near Lake Norman" class="hero-img" />
+  </div>
+
+  <!-- Intro -->
+  <section class="intro-section">
+    <div class="container">
+      <h1>Professional Stone Restoration in Lake Norman</h1>
+      <p>Polishing • Etch Mark Removal • Sealing • Shower Glass Polish</p>
+      <p class="stone-types">We work with marble, granite, limestone, travertine, and tile.</p>
+      <hr class="intro-divider">
+      <p class="intro-contact">
+        Email: <a href="mailto:lakedogstonecare@gmail.com">lakedogstonecare@gmail.com</a><br>
+        Phone: <a href="tel:7048805823">704-880-5823</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-grid">
+    <div class="container">
+      <h2>Stone Restoration Services</h2>
+      <div class="service-tiles">
+
+        <a href="scratch-removal.html" class="service-link">
+          <div class="service">
+            <img src="images/scratches before after stock.jpg" alt="Scratch Removal on stone surface" />
+            <h4>Scratch Removal</h4>
+            <p>We eliminate fine scratches and wear marks using precision tools that smooth and restore your surfaces.</p>
+          </div>
+        </a>
+
+        <a href="etch-removal.html" class="service-link">
+          <div class="service">
+            <img src="images/marble etch beforeafter.jpg" alt="Etch Removal on marble countertop" />
+            <h4>Etch Mark Repair</h4>
+            <p>Acid damage from spills or cleaners? We restore etched areas to a smooth, uniform finish that blends perfectly.</p>
+          </div>
+        </a>
+
+        <a href="sealing.html" class="service-link">
+          <div class="service">
+            <img src="images/sealing stock.jpg" alt="Stone surface being sealed" />
+            <h4>Stone Sealing</h4>
+            <p>Protect your natural stone with professional sealing solutions that resist stains and preserve the finish.</p>
+          </div>
+        </a>
+
+        <a href="#" class="service-link">
+          <div class="service">
+            <img src="images/glass spots.jpeg" alt="Shower glass polishing" />
+            <h4>Shower Glass Polish</h4>
+            <p>We remove buildup and stains from shower glass, restoring a clear, polished look with long-lasting protection.</p>
+          </div>
+        </a>
+
+        <a href="#" class="service-link">
+          <div class="service">
+            <img src="images/shower tile clean.jpg" alt="Polished stone shower tile" />
+            <h4>Shower Polish</h4>
+            <p>Deep polish and detailing for stone and tile shower surfaces to bring back their natural shine and beauty.</p>
+          </div>
+        </a>
+
+        <a href="#" class="service-link">
+          <div class="service">
+            <img src="images/shower insert polish.jpg" alt="Fiberglass shower insert polishing" />
+            <h4>Fiberglass Insert Polish</h4>
+            <p>Polishing services for fiberglass inserts and surrounds to remove dullness and improve clarity and shine.</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery">
+    <div class="container">
+      <h2>Before & After Gallery</h2>
+      <p>See how LakeDog Stone Care brings stone surfaces back to life across Lake Norman.</p>
+      <div class="grid">
+        <img src="images/before1.jpg" alt="Before stone polishing" class="responsive" />
+        <img src="images/after1.jpg" alt="After stone polishing" class="responsive" />
+        <img src="images/before2.jpg" alt="Before etch removal" class="responsive" />
+        <img src="images/after2.jpg" alt="After etch removal" class="responsive" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Map + Service Area -->
+  <section class="map-section">
+    <div class="container">
+      <h2>Lake Norman Service Area</h2>
+      <div class="service-area-grid">
+        <div class="map-box">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82997.47736216885!2d-80.96859690908818!3d35.52103858975143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885153d3036e7c69%3A0x6a647e5c215e9569!2sLake%20Norman!5e0!3m2!1sen!2sus!4v1714936847856!5m2!1sen!2sus"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+        <div class="service-towns">
+          <p>We proudly serve:</p>
+          <ul>
+            <li>Mooresville</li>
+            <li>Troutman</li>
+            <li>Sherrills Ford</li>
+            <li>Terrell</li>
+            <li>Mount Mourne</li>
+            <li>Statesville (south)</li>
+            <li>Cornelius</li>
+            <li>Davidson</li>
+            <li>Denver, NC</li>
+            <li>Westport</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <div class="container cta-block">
+      <div class="cta-logo-side">
+        <img src="images/lakedog logo8.png" alt="LakeDog Stone Care logo" />
+      </div>
+      <div class="cta-centered-text">
+        <h3>Get Your Free Quote</h3>
+        <p>Locally owned and operated. Call today for expert stone care in the Lake Norman area.</p>
+        <div class="cta-buttons">
+          <a href="tel:7048805823" class="btn btn-call">📞 Call Now</a>
+          <a href="mailto:lakedogstonecare@gmail.com" class="btn btn-email">✉️ Email Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 LakeDog Stone Care • Lake Norman Stone Polishing & Restoration</p>
+      <p>
+        <a href="https://www.facebook.com/YourLakeDogPage" target="_blank">Facebook</a> |
+        <a href="https://www.yelp.com/biz/lakedog-stone-care" target="_blank">Yelp</a> |
+        <a href="https://nextdoor.com/pages/lakedog-stone-care/" target="_blank">Nextdoor</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
