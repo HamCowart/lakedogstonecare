@@ -8,54 +8,48 @@
   <meta name="description" content="Expert countertop polishing, marble restoration, granite refinishing, and etch mark removal in Lake Norman, Mooresville & Davidson. Restore your stone surfaces with LakeDog Stone Care. Call now for a quote!" />
   <meta name="keywords" content="countertop polishing, marble restoration, granite repair, natural stone refinishing, etch removal, shower polishing, Mooresville, Lake Norman" />
   <link rel="canonical" href="https://www.lakedogstonecare.com/" />
+
+  <!-- Redirect from non-www to www -->
+  <script>
+    if (location.hostname === "lakedogstonecare.com") {
+      location.href = "https://www.lakedogstonecare.com" + location.pathname + location.search + location.hash;
+    }
+  </script>
+
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <style>
-    .cta-buttons .btn {
-      margin: 5px;
-    }
-
-    section.section-light,
-    section.section-alt,
-    section.services-grid,
-    section.map-section,
-    section.faq-section,
-    section.review-section,
-    section.cta {
+    .cta-buttons .btn { margin: 5px; }
+    section.section-light, section.section-alt, section.services-grid, section.map-section,
+    section.faq-section, section.review-section, section.cta {
       padding: 25px 0;
     }
-
     .container {
       max-width: 1000px;
       margin: 0 auto;
       padding: 0 20px;
     }
-
     .service-tiles {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
       justify-content: center;
     }
-
     .service {
       max-width: 300px;
       text-align: center;
     }
-
     .service img {
       max-width: 100%;
       border-radius: 5px;
     }
-
     .hero-image-wrapper img.hero-img {
       width: 100%;
       height: auto;
       display: block;
     }
-
     .cta-block {
       display: flex;
       align-items: center;
@@ -63,19 +57,16 @@
       gap: 20px;
       justify-content: center;
     }
-
     .cta-logo-side img {
       max-height: 120px;
       width: auto;
     }
-
     .review-links {
       display: flex;
       gap: 10px;
       flex-wrap: wrap;
       justify-content: center;
     }
-
     footer {
       text-align: center;
       padding: 30px 20px;
