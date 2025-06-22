@@ -9,71 +9,67 @@
   <meta name="keywords" content="countertop polishing, marble restoration, granite repair, natural stone refinishing, etch removal, shower polishing, Mooresville, Lake Norman" />
   <link rel="canonical" href="https://www.lakedogstonecare.com/" />
 
-  <!-- Redirect from non-www to www -->
-  <script>
-    if (location.hostname === "lakedogstonecare.com") {
-      location.href = "https://www.lakedogstonecare.com" + location.pathname + location.search + location.hash;
-    }
-  </script>
-
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
   <style>
     .cta-buttons .btn { margin: 5px; }
-    section.section-light, section.section-alt, section.services-grid, section.map-section,
-    section.faq-section, section.review-section, section.cta {
-      padding: 25px 0;
-    }
-    .container {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 0 20px;
-    }
-    .service-tiles {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
-    .service {
-      max-width: 300px;
-      text-align: center;
-    }
-    .service img {
-      max-width: 100%;
-      border-radius: 5px;
-    }
-    .hero-image-wrapper img.hero-img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-    .cta-block {
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
-    .cta-logo-side img {
-      max-height: 120px;
-      width: auto;
-    }
-    .review-links {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    footer {
-      text-align: center;
-      padding: 30px 20px;
-      background-color: #333;
-      color: #fff;
-    }
+    section { padding: 25px 0; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+    .service-tiles { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .service { max-width: 300px; text-align: center; }
+    .service img { max-width: 100%; border-radius: 5px; }
+    .hero-image-wrapper img.hero-img { width: 100%; height: auto; display: block; }
+    .cta-block { display: flex; align-items: center; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .cta-logo-side img { max-height: 120px; width: auto; }
+    .review-links { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+    footer { text-align: center; padding: 30px 20px; background-color: #333; color: #fff; }
   </style>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "LakeDog Stone Care",
+    "image": "https://www.lakedogstonecare.com/images/lakedog-logo8.png",
+    "@id": "https://www.lakedogstonecare.com/",
+    "url": "https://www.lakedogstonecare.com/",
+    "telephone": "+1-704-880-5823",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mooresville",
+      "addressRegion": "NC",
+      "postalCode": "28117",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.5849,
+      "longitude": -80.8258
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:00",
+      "closes": "17:00"
+    }],
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61575287107987",
+      "https://www.yelp.com/biz/lake-dog-stone-care-mooresville",
+      "https://nextdoor.com/pages/lakedog-stone-care-mooresville-nc/"
+    ],
+    "description": "LakeDog Stone Care specializes in marble and granite polishing, countertop restoration, etch mark removal, and sealing for residential and commercial clients in the Lake Norman area."
+  }
+  </script>
 </head>
 <body>
 
@@ -117,9 +113,7 @@
     <h1>Marble & Countertop Polishing Services in Lake Norman, NC</h1>
     <p>LakeDog Stone Care offers expert <strong>countertop polishing</strong>, <strong>marble restoration</strong>, and <strong>stone refinishing</strong> for homes and businesses across Mooresville, Davidson, and the Lake Norman area. We work with granite, travertine, limestone, and tile — restoring shine, removing etches, and protecting with long-lasting sealers.</p>
     <hr class="intro-divider">
-    <p class="intro-contact">
-      Prefer email? <a href="mailto:lakedogstonecare@gmail.com">lakedogstonecare@gmail.com</a>
-    </p>
+    <p class="intro-contact">Prefer email? <a href="mailto:lakedogstonecare@gmail.com">lakedogstonecare@gmail.com</a></p>
   </div>
 </section>
 
@@ -135,7 +129,7 @@
   <div class="container">
     <h2>Stone Restoration Services</h2>
     <div class="service-tiles">
-      <!-- Repeat service blocks unchanged -->
+      <!-- Repeat your specific services and images here -->
     </div>
   </div>
 </section>
@@ -151,16 +145,9 @@
       <div class="service-towns">
         <p>We proudly serve:</p>
         <ul>
-          <li>Mooresville</li>
-          <li>Troutman</li>
-          <li>Sherrills Ford</li>
-          <li>Terrell</li>
-          <li>Mount Mourne</li>
-          <li>Statesville (south)</li>
-          <li>Cornelius</li>
-          <li>Davidson</li>
-          <li>Denver, NC</li>
-          <li>Westport</li>
+          <li>Mooresville</li><li>Troutman</li><li>Sherrills Ford</li><li>Terrell</li>
+          <li>Mount Mourne</li><li>Statesville (south)</li><li>Cornelius</li>
+          <li>Davidson</li><li>Denver, NC</li><li>Westport</li>
         </ul>
       </div>
     </div>
@@ -188,12 +175,12 @@
 <section class="faq-section section-light">
   <div class="container">
     <h2>Frequently Asked Questions</h2>
-    <p><strong>Q: Do you polish marble countertops?</strong><br>A: Yes. We specialize in polishing marble countertops, vanities, and tabletops...</p>
-    <p><strong>Q: What tools and materials do you use?</strong><br>A: We use professional-grade diamond pads, polishers, and powders...</p>
-    <p><strong>Q: What areas do you serve?</strong><br>A: Mooresville, Davidson, Denver, Cornelius, and surrounding towns in the Lake Norman area.</p>
-    <p><strong>Q: How much does countertop polishing or restoration cost?</strong><br>A: It depends on the job, but we offer free quotes by phone or email.</p>
-    <p><strong>Q: Can you remove etch marks from marble or travertine?</strong><br>A: Yes — this is a specialty service we offer using polishing compounds and fine abrasives.</p>
-    <p><strong>Q: Is sealing granite or marble really necessary?</strong><br>A: Yes. We recommend resealing every 12–24 months depending on usage.</p>
+    <p><strong>Q: Do you polish marble countertops?</strong><br>A: Yes. We specialize in polishing marble countertops, vanities, and tabletops.</p>
+    <p><strong>Q: What tools and materials do you use?</strong><br>A: We use professional-grade diamond pads, polishers, and powders.</p>
+    <p><strong>Q: What areas do you serve?</strong><br>A: Mooresville, Davidson, Denver, Cornelius, and nearby towns in Lake Norman.</p>
+    <p><strong>Q: How much does countertop polishing cost?</strong><br>A: We offer free quotes. Costs vary by job size and stone type.</p>
+    <p><strong>Q: Can you remove etch marks?</strong><br>A: Yes, with fine abrasives and polishing compounds specific to each surface.</p>
+    <p><strong>Q: Do you recommend sealing stone?</strong><br>A: Yes. Resealing every 12–24 months protects your surface from stains and wear.</p>
   </div>
 </section>
 
